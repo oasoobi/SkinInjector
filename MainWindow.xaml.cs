@@ -81,9 +81,9 @@ namespace SkinInjector
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        System.Windows.MessageBox.Show($"エラーが発生しました: {ex.Message}", "エラー", MessageBoxButton.OK, MessageBoxImage.Error);
+                        Debug.WriteLine(ex.ToString());
                     }
-
                 }
             }
 
