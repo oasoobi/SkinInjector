@@ -3,7 +3,7 @@
 
 ## ！再配布禁止！
 
-(MCEncrypt)[https://github.com/economyplusdev/MCEncrypt] を使用しているためウイルスとして検出される場合がありますが問題ありません。
+[MCEncrypt](https://github.com/economyplusdev/MCEncrypt) を使用しているためウイルスとして検出される場合がありますが問題ありません。
 このツールは4Dスキンをマインクラフトにインジェクトするためのツールです。
 
 ## 使い方
