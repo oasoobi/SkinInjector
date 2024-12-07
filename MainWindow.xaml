@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         ResizeMode="CanMinimize"
         
-        Title="Skin Injector v1.0 created by oasobi" Height="520" Width="813">
+        Title="Skin Injector v1.1 created by oasobi" Height="520" Width="813">
     <Grid Margin="1,10,-1,-10">
         <Grid Margin="0,0,0,10" Grid.ColumnSpan="2">
             <StackPanel Margin="-2,-1,0,384" HorizontalAlignment="Left" Width="800" Orientation="Horizontal" AllowDrop="True">
