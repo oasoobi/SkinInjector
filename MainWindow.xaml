@@ -37,8 +37,9 @@
                     </DataTemplate>
                 </ui:ListView.ItemTemplate>
             </ui:ListView>
+            <CheckBox Content="暗号化する" Margin="10,434,0,0" x:Name="isEncrypt" VerticalAlignment="Top" IsChecked="True" Cursor="Hand"/>
         </Grid>
 
-        <ui:Button Click="InjectClick" x:Name ="inject" IsEnabled="False" Appearance="Primary" Background="RoyalBlue" Content="inject!" Margin="729,432,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.31,0.223" Height="32" Width="61"/>
+        <ui:Button Click="InjectClick" x:Name ="inject" IsEnabled="False" Appearance="Primary" Background="RoyalBlue" Content="inject!" Margin="721,426,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.31,0.223" Height="32" Width="61"/>
     </Grid>
 </Window>

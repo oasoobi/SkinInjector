@@ -150,20 +150,22 @@ namespace SkinInjector
                         File.Copy(filePath, destFilePath);
                     }
 
-                    Process encript = new();
-                    string currentDir = AppDomain.CurrentDomain.BaseDirectory;
-                    encript.StartInfo.FileName = System.IO.Path.Combine(currentDir, "MCEnc", "McEncryptor.exe");
+                    if (isEncrypt.IsChecked == true)
+                    {
+                        Process encript = new();
+                        string currentDir = AppDomain.CurrentDomain.BaseDirectory;
+                        encript.StartInfo.FileName = System.IO.Path.Combine(currentDir, "MCEnc", "McEncryptor.exe");
 
-                    encript.StartInfo.UseShellExecute = false;
-                    encript.StartInfo.RedirectStandardInput = true;
-                    encript.StartInfo.CreateNoWindow = true;
+                        encript.StartInfo.UseShellExecute = false;
+                        encript.StartInfo.RedirectStandardInput = true;
+                        encript.StartInfo.CreateNoWindow = true;
 
-                    encript.Start();
-                    encript.StandardInput.WriteLine(targetPath);
-                    encript.StandardInput.Close();
+                        encript.Start();
+                        encript.StandardInput.WriteLine(targetPath);
+                        encript.StandardInput.Close();
 
-                    encript.WaitForExit();
-
+                        encript.WaitForExit();
+                    }
                     System.Windows.MessageBox.Show($"処理に成功しました。", "成功", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 }
