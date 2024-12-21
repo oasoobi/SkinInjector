@@ -1,5 +1,5 @@
 # SkinInjector
-
+<img src="https://img.shields.io/github/downloads/oasoobi/SkinInjector/total?style=for-the-badge">
 
 ## 再配布禁止
 
