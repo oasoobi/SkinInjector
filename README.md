@@ -1,6 +1,7 @@
 # SkinInjector
 <img src="https://img.shields.io/github/downloads/oasoobi/SkinInjector/total?style=for-the-badge">
-
+v2 に移行しました！！
+https://github.com/oasoobi/skininjector-v2
 ## 再配布禁止
 
 このツールは4Dスキンをマインクラフトにインジェクトするためのツールです。
