@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/github/downloads/oasoobi/SkinInjector/total?style=for-the-badge">
 
 > [!CAUTION]
-> マイクラ統合版1.21.120以降ではマイクラのインストール先が変更されたため、このソフトは動作しないため、[SkinInjector v2](https://github.com/oasoobi/skininjector-v2) を使用する必要があります。
+> マイクラ統合版1.21.120以降ではマイクラのインストール先が変更されたため、このソフトは動作しません。代わりに、[SkinInjector v2](https://github.com/oasoobi/skininjector-v2) を使用する必要があります。
 
 ## 再配布禁止
 
